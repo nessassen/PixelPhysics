@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6478220337385174879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6478220337385174849}
+  - component: {fileID: 6478220337385174848}
+  - component: {fileID: 6478220337385174850}
+  m_Layer: 0
+  m_Name: DiagBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6478220337385174849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6478220337385174879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -64, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6478220337385174848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6478220337385174879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92241417054a2b7479974a1f1467d681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pixelPhysics: {fileID: 0}
+  physicsType: 2
+  physicsTag: box
+  isScanner: 0
+  scanTags: []
+  isCollider: 1
+  scannedObjects: []
+  delta: {x: 0, y: 0}
+  spentDelta: {x: 0, y: 0}
+  vel: {x: 0, y: 0}
+  grav: {x: 0, y: 0}
+  maxSpeedX: 8092
+  maxSpeedY: 8092
+  mass: 1
+  drag: 0
+  elastic: 1
+  friction: 0
+  projectedPos: {x: 0, y: 0}
+  nearbyColliders: []
+  xMovementDone: 0
+  yMovementDone: 0
+  isToRemove: 0
+  downDiag: 8
+  upDiag: 16
+--- !u!114 &6478220337385174850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6478220337385174879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75e181a7e7a55ab4fa84a7a108c95ed9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  col: {r: 1, g: 1, b: 1, a: 1}
